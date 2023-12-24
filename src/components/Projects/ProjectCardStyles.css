@@ -1,0 +1,73 @@
+.project-heading {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.project-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+}
+
+.project-card {
+  width: 25rem;
+  height: 30rem;
+  position: relative;
+  background: var(--bg-100);
+  border-radius: 10px;
+  margin: 1.2rem 1rem;
+  padding: 1.2rem 1rem;
+  box-shadow: 7px 7px 15px 1px rgba(224,224,224,0.2);
+
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project-title {
+  color: var(--text-200);
+  padding: 1rem 0;
+}
+
+.pro-details p {
+  padding-bottom: 1rem;
+  font-size: 1.05rem;
+  text-align: start;
+}
+
+.pro-btns {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.2rem 1rem;
+}
+
+.pro-btns .btn {
+  padding: 0.5rem 1rem;
+  color: var(--text-200);
+}
+
+@media screen and (max-width: 768px) {
+  .project-container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .project-card{
+    height: 32rem;
+  }
+  
+}
